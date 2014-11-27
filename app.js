@@ -43,7 +43,7 @@ app.get('/',
             dt['state'] = "NoCoinState";
 
             console.log(dt);
-            res.render('index.ejs', { title: 'Gumball Machine Version 2',data:dt });
+            res.render('index.ejs', { title: 'Gumball Machine Version 2 Node JS',data:dt });
         });
 }
 );
